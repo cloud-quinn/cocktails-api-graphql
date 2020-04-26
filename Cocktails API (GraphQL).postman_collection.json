@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "0edfa206-ff8f-4e89-9ce9-6fbcb6642949",
+		"name": "Cocktails API (GraphQL)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:4000/cocktails",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"query\": \"{ cocktails(maxUnits: 3, ingredient: \\\"tequila\\\") { cocktailName, alcoholUnits, ingredients { ingredientName, quantity { unit, value } } } }\"\n}"
+				},
+				"url": {
+					"raw": "localhost:4000/cocktails",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"cocktails"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/cocktails (no parameters)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"query\": \"{ cocktails { cocktailName, alcoholUnits, ingredients { ingredientName, quantity { unit, value } } } }\"\n}"
+				},
+				"url": {
+					"raw": "localhost:4000/cocktails",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"cocktails"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/cocktails (with maxUnits)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"query\": \"{ cocktails(maxUnits: 2.5) { cocktailName, alcoholUnits, ingredients { ingredientName, quantity { unit, value } } } }\"\n}"
+				},
+				"url": {
+					"raw": "localhost:4000/cocktails",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"cocktails"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/cocktails (with ingredients)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"query\": \"{ cocktails(ingredient: \\\"tequila\\\") { cocktailName, alcoholUnits, ingredients { ingredientName, quantity { unit, value } } } }\"\n}"
+				},
+				"url": {
+					"raw": "localhost:4000/cocktails",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"cocktails"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

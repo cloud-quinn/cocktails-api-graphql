@@ -1,0 +1,322 @@
+[
+    {
+        "alcoholUnits": 3.0,
+        "cocktailName": "Classic Margarita",
+        "ingredients": [
+            {
+                "ingredientName": "Tequila",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 50
+                }
+            },
+            {
+                "ingredientName": "Triple Sec",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 30
+                }
+            },
+            {
+                "ingredientName": "Lime Juice",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 30
+                }
+            },
+            {
+                "ingredientName": "Honey",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 5
+                }
+            },
+            {
+                "ingredientName": "Ice",
+                "quantity": {
+                    "unit": "cube",
+                    "value": 4
+                }
+            }
+        ]
+    },
+    {
+        "alcoholUnits": 3.0,
+        "cocktailName": "Blue Margarita",
+        "ingredients": [
+            {
+                "ingredientName": "Tequila",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 50
+                }
+            },
+            {
+                "ingredientName": "Blue Curacao",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 30
+                }
+            },
+            {
+                "ingredientName": "Lime Juice",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 30
+                }
+            },
+            {
+                "ingredientName": "Honey",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 5
+                }
+            },
+            {
+                "ingredientName": "Ice",
+                "quantity": {
+                    "unit": "cube",
+                    "value": 4
+                }
+            }
+        ]
+    },
+    {
+        "alcoholUnits": 3.0,
+        "cocktailName": "Tequila Sunrise",
+        "ingredients": [
+            {
+                "ingredientName": "Tequila",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 50
+                }
+            },
+            {
+                "ingredientName": "Grenadine",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 5
+                }
+            },
+            {
+                "ingredientName": "Cassis",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 5
+                }
+            },
+            {
+                "ingredientName": "Orange Curacao",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 25
+                }
+            },
+            {
+                "ingredientName": "Lime Juice",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 15
+                }
+            },
+            {
+                "ingredientName": "Orange Juice",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 75
+                }
+            },
+            {
+                "ingredientName": "Ice",
+                "quantity": {
+                    "unit": "cube",
+                    "value": 4
+                }
+            }
+        ]
+    },
+    {
+        "alcoholUnits": 2.0,
+        "cocktailName": "Bramble",
+        "ingredients": [
+            {
+                "ingredientName": "Gin",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 50
+                }
+            },
+            {
+                "ingredientName": "Creme de Mure",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 15
+                }
+            },
+            {
+                "ingredientName": "Lemon Juice",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 50
+                }
+            },
+            {
+                "ingredientName": "Honey",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 5
+                }
+            },
+            {
+                "ingredientName": "Ice",
+                "quantity": {
+                    "unit": "cube",
+                    "value": 4
+                }
+            }
+        ]
+    },
+    {
+        "alcoholUnits": 2.5,
+        "cocktailName": "Classic Martini",
+        "ingredients": [
+            {
+                "ingredientName": "Gin",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 60
+                }
+            },
+            {
+                "ingredientName": "Dry Vermouth",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 15
+                }
+            },
+            {
+                "ingredientName": "Ice",
+                "quantity": {
+                    "unit": "cube",
+                    "value": 4
+                }
+            }
+        ]
+    },
+    {
+        "alcoholUnits": 2.5,
+        "cocktailName": "Vodka Martini",
+        "ingredients": [
+            {
+                "ingredientName": "Vodka",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 60
+                }
+            },
+            {
+                "ingredientName": "Dry Vermouth",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 15
+                }
+            },
+            {
+                "ingredientName": "Ice",
+                "quantity": {
+                    "unit": "cube",
+                    "value": 4
+                }
+            }
+        ]
+    },
+    {
+        "alcoholUnits": 2.0,
+        "cocktailName": "Snowball",
+        "ingredients": [
+            {
+                "ingredientName": "Advocaat",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 50
+                }
+            },
+            {
+                "ingredientName": "Rum",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 25
+                }
+            },
+            {
+                "ingredientName": "Lemonade",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 100
+                }
+            }
+        ]
+    },
+    {
+        "alcoholUnits": 2.0,
+        "cocktailName": "Classic Daiquiri",
+        "ingredients": [
+            {
+                "ingredientName": "Rum",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 50
+                }
+            },
+            {
+                "ingredientName": "Lime Juice",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 25
+                }
+            },
+            {
+                "ingredientName": "Honey",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 5
+                }
+            },
+            {
+                "ingredientName": "Ice",
+                "quantity": {
+                    "unit": "cube",
+                    "value": 4
+                }
+            }
+        ]
+    },
+    {
+        "alcoholUnits": 2.0,
+        "cocktailName": "Blue Lagoon",
+        "ingredients": [
+            {
+                "ingredientName": "Vodka",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 50
+                }
+            },
+            {
+                "ingredientName": "Blue Curacao",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 25
+                }
+            },
+            {
+                "ingredientName": "Lemonade",
+                "quantity": {
+                    "unit": "ml",
+                    "value": 100
+                }
+            }
+        ]
+    }
+]
